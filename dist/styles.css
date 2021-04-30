@@ -1,7 +1,7 @@
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 62.5%;
   height: 100%;
 }
@@ -10,7 +10,7 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -43,14 +43,14 @@ input[type="number"] {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 50px;
 }
 
@@ -132,17 +132,16 @@ input[type="number"] {
   cursor: pointer;
 }
 
-.footer {
+.subtitle {
   text-align: center;
   font-size: 2.2rem;
   position: relative;
   width: 100%;
   color: #22b455;
-  margin-top: 100px;
 }
 
 @media only screen and (max-width: 991px) {
-  .footer {
+  .subtitle {
     font-size: 2rem;
   }
 }
@@ -153,12 +152,12 @@ input[type="number"] {
 }
 
 .background {
-  background-image: url(../images/background.jpg);
   background-attachment: fixed;
+  background-image: url(../../images/background.jpg);
   background-size: cover;
   background-position: center;
-  height: 100%;
   width: 100%;
+  height: inherit;
   position: absolute;
   z-index: -1;
 }
