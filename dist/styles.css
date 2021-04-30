@@ -51,7 +51,7 @@ input[type="number"] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .border {
@@ -148,7 +148,7 @@ input[type="number"] {
 
 .fa-github {
   color: #22b455;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .background {
