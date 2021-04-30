@@ -13,6 +13,10 @@ input.addEventListener('keypress',(key)=>{
     }
 })
 
+input.addEventListener('input', ()=>{
+    if (input.value.length > 8) input.value = input.value.slice(0, input.maxLength);
+})
+
 const conversion = (binary) => {
     return parseInt(binary, 2)
 }
